@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F871;
+    color: #845EC2;
+    font-weight: 600;
+}
+.inputValue{
+    margin-top: 10px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.inputValue label{
+    margin-top: 20px;
+}
+
+.inputValue input{
+    padding: 5px;
+    color: black;
+    border-radius: 2px;
+}
+
+#submit{
+    margin-top: 20px;
+    height: 40px;
+    background-color: #845EC2;
+    color: white;
+    border-radius: 5px;
+}
+
+button{
+    color: white;
+    background-color: rgb(184, 77, 18);
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    margin-top: 50px;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .inputValue{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    button{
+        top: 10px;
+    }
+}
